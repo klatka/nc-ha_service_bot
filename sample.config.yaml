@@ -1,0 +1,6 @@
+bot:
+  port: 8088 # Port the Go Server should be listening to
+  secret: "secret" # Secret (64+ chars recommended)
+  ha:
+    url: "https://homeassistant" # URL to reach Home Assistant
+    webhook_id: "-id" # Webhook id created by Home Assistant
